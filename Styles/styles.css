@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Use a modern font, you can replace 'Roboto' with any other font you like */
+    background-color: #f1f1f1; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 15px;
+    max-width: 250px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition on hover */
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Enlarge the card on hover */
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Add a slight border radius for a softer look */
+}
+
+.product-name {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333; /* Dark text color */
+}
+
+.product-price {
+    font-weight: bold;
+    color: #d9534f; /* Red color for price */
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.product-buttons {
+    margin-top: 15px;
+}
+
+.add-to-cart-button,
+.buy-now-button {
+    background-color: #d9534f; /* Red color for buttons */
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Add a smooth transition on hover */
+}
+
+.add-to-cart-button:hover,
+.buy-now-button:hover {
+    background-color: #c9302c; /* Darker red color on hover */
+}
+
+.deconnexion {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+}
